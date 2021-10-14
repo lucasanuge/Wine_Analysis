@@ -10,3 +10,5 @@ The best subset technique will also be implemented to choose the best subset of 
 
 ## Results
 ![Mulitple regression results](data_analysis/results/mult_linear_reg_results.PNG)
+
+Looking at the multiple regression results, we can see that not all of the predictors have significant relationship with the dependent variable. Based on this model we see that Citric acid and chlorides in wine do not have significant impact on wine quality and that fixed acidity, volatile acidity, residual sugar, free sulphur dioxide, total sulphur dioxide, density, pH, sulphates, and alcohol all have significant impact on wine quality.
