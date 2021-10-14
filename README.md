@@ -18,3 +18,6 @@ Looking at the multiple regression results, we can see that not all of the predi
 ### Best subset technique
 As mentioned, the best subset technique is used to identify the best subset of predictors for quality of wine. The results of this analysis shows that the best predictors based on the Cp value of the subset of predictors are fixed acidity, density, volatile acidity, sugar, free sulphur dioxide, total sulphur dioxide, density, pH, sulphates, and alcohol. The results are shown in the screenshot below.
 ![best subset results](data_analysis/results/Cp_results.PNG)
+
+## Summary
+From our results, we can say that the best predictors of quality of wine are fixed acidity, density, volatile acidity, sugar, free sulphur dioxide, total sulphur dioxide, density, pH, sulphates, and alcohol. Subsequenlty, the best model with the best Cp value also uses these predictors.
