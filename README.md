@@ -9,3 +9,4 @@ The best subset technique will also be implemented to choose the best subset of 
 
 
 ## Results
+![Mulitple regression results](data_anlysis/results/mult_linear_reg_results.PNG)
