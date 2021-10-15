@@ -16,8 +16,7 @@ summary(linear_model)
 # Best subset technique
 X <- cbind(fxd_acid,density,vol_acid,cit_acid,sugar,chlorides,free_SO2,total_SO2,pH,sulphates,alcohol)
 best.lm <- leaps(X,quality,method="Cp")
-#the two following commands produce the list of variables for each model and 
-#the rsq. values, but are stupid to compare
+#the two following commands produce the list of variables for each model and the rsq. values
 best.lm$which #list of variables: fxd_acid,density,vol_acid,cit_acid,sugar,chlorides,free_SO2,total_SO2,pH,sulphates,alcohol
 best.lm$Cp
 cbind(best.lm$Cp,best.lm$which)
